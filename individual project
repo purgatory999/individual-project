@@ -1,7 +1,7 @@
 cat(html_page)
 library(rmarkdown)
 file_path <- "https://rstudio-education.github.io/hopr/.html"
-pandoc_convert(file_path, to = "markdown_strict")
+pandoc_convert(file_path, to = "rmarkdown")
 
 
 # Preface {-}
