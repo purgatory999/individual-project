@@ -3,6 +3,11 @@ library(rmarkdown)
 file_path <- "https://rstudio-education.github.io/hopr/.html"
 pandoc_convert(file_path, to = "rmarkdown")
 
+read_html("https://rstudio-education.github.io/hopr/")
+html_nodes("rstudio-education")
+html_test()
+
+
 
 # Preface {-}
 
